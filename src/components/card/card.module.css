@@ -1,4 +1,4 @@
-@value makerShadow, makerBlack, makerWhite, makerColorful, makerWheat  from '../../common/colors.css';
+@value makerBlack, makerWhite, makerColorful, makerShadow, makerWheat from '../../common/colors.css';
 
 .card {
   display: flex;
@@ -21,10 +21,8 @@
   background-color: makerWhite;
   color: makerBlack;
 }
-
 .card.colorful {
   background: makerColorful;
-  color: makerWhite;
 }
 
 .avatar {
